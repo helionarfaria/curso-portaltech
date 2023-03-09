@@ -17,3 +17,5 @@ elif VEICULO_RODAS >= 4 and VEICULO_PESO_KG <= 6000 and VEICULO_PESSOAS > 8:
 
 elif VEICULO_RODAS >= 4 and VEICULO_PESO_KG > 6000:
     print('A melhor habilitação para este veículo é a de categoria E')
+
+print (type(VEICULO_RODAS));
