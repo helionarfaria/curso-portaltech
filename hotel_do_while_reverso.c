@@ -11,6 +11,5 @@ int main(void)
         }
         printf("andar:%d ", andar);
     } while (andar > 1 && andar <= 21);
-
-    printf("Teste de commit para o GitHub")
+    printf("Teste de commit para o GitHub no dia 27/03/2023");
 }
