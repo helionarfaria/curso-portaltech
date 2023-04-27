@@ -17,6 +17,18 @@ const arrayPostagens = [
     data: "30/08/2022",
     texto: "Todos conhecemos e amamos um bom churrasco, mas o que você acha de experimentar um churrasco focado em frutos do mar? Nós gostamos, experimente e nos conte o que você achou!"
   },
+  {
+    titulo: "You Burger",
+    subtitulo: "Monte seu próprio Hamburguer!",
+    data: "26/04/2023",
+    texto: "Já pensou em escolher o que quer no seu Hamburguer? Com a You Burguer isso é possível! De um jeito simples, rápido e beeeem tecnológico, tudo que você precisa fazer é selecionar os ingredientes em uma tela, finalizar o pedido, e pronto!"
+  },
+  {
+    titulo: "Folha's Pizzaria",
+    subtitulo: "A clássica da região",
+    data: "26/04/2023",
+    texto: "Falou em pizza boa, falou em Folha's Pizzaria! Com mais de duas décadas de tradição na cidade, a Folha's sem dúvida é a melhor escolha de pizza da região! Com um ambiente que combina estilo retrô com moderno, você vai se encantar não só pelo sabor, mas também pelo local!"
+  },
 ]
 
 for (let i = 0; i < arrayPostagens.length; i++) {
