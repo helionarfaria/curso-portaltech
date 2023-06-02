@@ -11,9 +11,11 @@ Trabalhe esse código em seu IDE, suba ele para sua conta no GitHub e compartilh
 
 CREATE DATABASE ESCOLA,
 
+USE ESCOLA,
+
 CREATE TABLE ALUNO (
-  ID SERIAL PRIMARY KEY,
-  nome VARCHAR,
+  ID SERIAL PRIMARY KEY NOT NULL,
+  nome VARCHAR NOT NULL,
   email VARCHAR,
-  endereco VARCHAR
-  )
+  endereco VARCHAR NOT NULL
+)
